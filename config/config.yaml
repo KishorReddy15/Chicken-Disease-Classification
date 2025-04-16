@@ -5,3 +5,8 @@ data_ingestion:
   source_URL: https://raw.githubusercontent.com/KishorReddy15/Chicken-Disease-Classification/main/Chicken-fecal-images.zip
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
+
+prepare_base_mode:
+  root_dir: artifacts/prepare_base_model
+  base_model: artifacts/prepare_base_model/base_model.h5
+  updated_base_model_ath: artifacts/prepare_base_model/updated_base_model.h5
